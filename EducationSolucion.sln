@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{7620F43B-339C-4F0E-9FE7-CDEABDB4FBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{7620F43B-339C-4F0E-9FE7-CDEABDB4FBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{E5513CA4-4EF9-43D9-9412-D87DEB06EA0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{E5513CA4-4EF9-43D9-9412-D87DEB06EA0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application", "Education.Application\Education.Application.csproj", "{F5E54B61-57C4-4AA6-B528-96FE0E2FFFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Application", "Education.Application\Education.Application.csproj", "{F5E54B61-57C4-4AA6-B528-96FE0E2FFFCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Api", "Education.Api\Education.Api.csproj", "{A22E9BBE-786B-45FC-93F0-EC8313CDDAAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Api", "Education.Api\Education.Api.csproj", "{A22E9BBE-786B-45FC-93F0-EC8313CDDAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application.NUnitTest", "Education.Application.NUnitTest\Education.Application.NUnitTest.csproj", "{04AFA76A-712C-4E80-8226-1AB9A1B7EBD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A22E9BBE-786B-45FC-93F0-EC8313CDDAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A22E9BBE-786B-45FC-93F0-EC8313CDDAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A22E9BBE-786B-45FC-93F0-EC8313CDDAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04AFA76A-712C-4E80-8226-1AB9A1B7EBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AFA76A-712C-4E80-8226-1AB9A1B7EBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AFA76A-712C-4E80-8226-1AB9A1B7EBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AFA76A-712C-4E80-8226-1AB9A1B7EBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
